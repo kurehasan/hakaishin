@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-image: url(ground-image.png);
+    background-repeat: no-repeat;
+    background-position: 64% -2%;
+    background-size: 107%;
+}
+
+.container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    text-align: center;
+}
+
+.yokohaba {
+    margin: 0 auto;
+    width: 50em;
+}
+
+/* ロゴ */
+#logo-style {
+    width: 300px;
+    margin-top: 30px;
+}
+
+/* ボタン */
+button {
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 0rem 0.75rem;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
+}
+
+.button-design {
+    margin: 5px 10px 10px 0;
+    text-align: right;
+}
+
+#button-ja {
+    background-color: #616264;
+    color: orange;
+}
+
+#button-en {
+    background-color: #616264;
+    color: #fff;
+}
+
+/* タイトル */
+#panel-head {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 1px 0 7px #ccc;
+    text-align: left;
+}
+
+/* パネル */
+#background {
+    /* width: 100px; */
+    height: 100px;
+    /* border: 2px solid black; */
+    background: linear-gradient(to bottom, #63B036 5%, #459122 100%);
+    /* position: static; */
+    position: relative;
+}
+
+/* #panel-body {
+    background: linear-gradient(to bottom, #63B036 5%, #459122 100%);
+    margin-top: 25em;
+    padding: 25px;
+} */
+
+.yokonarabinisitai {
+    display: flex;
+    margin-top: 3em;
+}
+
+/* フォーム */
+form {
+    display: flex;
+}
+
+#textbox {
+    height: 2.5em;
+}
+
+.id-style {
+    margin-left: 5em;
+    color: #2b2b2b;
+}
+
+.password-style {
+    margin-left: 1em;
+    color: #2b2b2b;
+
+}
+
+#login-button {
+    margin-left: 10px;
+    margin-right: 5px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #616264;
+    color: #fff;
+}
+
+/* リスト */
+.list-style {
+    display: flex;
+    list-style: none;
+}
+
+#list-youso {
+    margin-left: 3em;
+    margin-right: 2em;
+    text-decoration: none;
+    color: #2b2b2b;
+}
